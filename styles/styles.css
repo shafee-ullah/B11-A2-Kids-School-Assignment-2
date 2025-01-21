@@ -36,7 +36,7 @@
 /* header section */
 
 header {
-    max-width: 1140px;
+    max-width: 1440px;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -132,6 +132,13 @@ header {
 }
 
 /* main section */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 /* section curriculam */
 
 .curriculam {
@@ -152,7 +159,7 @@ header {
     display: grid;
     /* gap: 20px; */
     grid-template-columns: repeat(3, 1fr);
-    justify-items:center;
+    justify-items: center;
     align-items: center;
     margin-top: 80px;
     margin-bottom: 80px;
@@ -238,7 +245,7 @@ header {
 /* our stories section */
 .stories {
     margin-top: 65px;
-    max-width: 1160px;
+    max-width: 1440px;
     margin: 0 auto;
     background-image: url("../assets/bg.png"), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
     margin-bottom: 60px;
@@ -251,10 +258,119 @@ header {
 }
 
 .stories-card {
-    display: grid;
-    /* gap: 29px;  */
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 80px;
-    margin-bottom: 80px;
-    margin-left: 130px;
+    display: flex;
+    gap: 19px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+    margin-right: 140px;
+    border-radius: 16px;
+
 }
+
+.stories-card-grid {
+    display: grid;
+    gap: 19px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.story-img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    overflow: hidden;
+    margin-bottom: -22px;
+}
+
+.cardstory1 {
+    background-color: white;
+    border-radius: 16px;
+
+}
+
+.measurement1 {
+    padding: 50px 38px;
+}
+
+.measurement2 {
+    padding-top: 19px;
+    padding-left: 38px;
+    padding-right: 39px;
+    padding-bottom: 29px;
+}
+
+.card-story {
+    background-color: white;
+    border-radius: 16px;
+    height: 301.61px;
+    width: 290.69px;
+}
+
+.story-header1 {
+    margin-top: -5px;
+    margin-bottom: 48px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.story-header {
+    margin-top: -3px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.story-para {
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgba(102, 102, 102, 1);
+}
+
+.story-btn1 {
+    padding-top: 14.38px;
+    padding-bottom: 15.34px;
+    padding-left: 19.17px;
+    padding-right: 18.88px;
+    border: none;
+    border-radius: 47.93px;
+    color: white;
+    background-color: rgb(60, 216, 232);
+    font-size: 1rem;
+    font-weight: 500;
+    /* margin-top: -1000px; */
+    margin-left: -2px;
+    margin-bottom: 36.5px;
+}
+
+#btn-img-1 {
+    margin-bottom: -80px;
+}
+
+.story-btn {
+    padding-top: 10px;
+    padding-bottom: 11px;
+    padding-left: 19.17px;
+    padding-right: 18.88px;
+    border: none;
+    border-radius: 47.93px;
+    color: white;
+    background-color: rgba(149, 178, 38, 1);
+    margin-left: 40px;
+}
+.view-all{
+    display: block;
+    margin: 0 auto;
+    margin-top: 88px;
+    margin-bottom: 60px;   
+    border: none;
+    padding: 15px 47px;
+    border-radius: 12px;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+

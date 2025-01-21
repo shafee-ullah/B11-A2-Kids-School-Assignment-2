@@ -1,4 +1,5 @@
 @media screen and (max-width: 576px) {
+
     /* Navbar adjustments */
     .navbar {
         flex-direction: row;
@@ -8,19 +9,23 @@
         border-bottom: 1px solid orange;
         margin-top: 0px;
     }
-    .header-headline, .nav-links {
+
+    .header-headline,
+    .nav-links {
         display: none;
     }
+
     .nav-btn {
         display: none;
     }
-    .nav-phn-btn{
-        display:flex;
+
+    .nav-phn-btn {
+        display: flex;
         margin-right: 15px;
         margin-bottom: -5px;
     }
-   
-    .header-logo{
+
+    .header-logo {
         margin-left: 15px;
     }
 
@@ -29,36 +34,59 @@
         text-align: center;
         gap: 15px;
     }
+
     .banner-content {
         max-width: 100%;
     }
+
     .banner-header {
         font-size: 2rem;
         margin-bottom: 0px;
     }
+
     .banner-para {
         font-size: 1rem;
     }
-    
-    .banner-content, .banner-img {
+
+    .banner-content,
+    .banner-img {
         text-align: center;
     }
+
     .banner-img img {
         max-width: 100%;
         height: auto;
         margin-top: 15px;
+        margin-bottom: -80px;
     }
 
     /* curriculam section */
-    .curriculam{
+    .curriculam {
         flex-direction: column;
     }
-    .school-curriculam-cards{
+
+    .school-curriculam-cards {
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
         gap: 15px;
     }
-    .twobtns{
+
+    .twobtns,
+    .cardstory1 {
         display: none;
+    }
+
+    .stories {
+        flex-direction: column;
+    }
+
+    .stories-card-grid {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        gap: 15px;
+    }
+    .view-all{
+        margin-top: 20px;
+        margin-bottom: 60px;
     }
 }
