@@ -48,4 +48,17 @@
         height: auto;
         margin-top: 15px;
     }
+
+    /* curriculam section */
+    .curriculam{
+        flex-direction: column;
+    }
+    .school-curriculam-cards{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        gap: 15px;
+    }
+    .twobtns{
+        display: none;
+    }
 }

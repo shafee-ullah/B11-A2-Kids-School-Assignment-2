@@ -36,8 +36,15 @@
 /* header section */
 
 header {
+    max-width: 1140px;
+    margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.navlog {
+    /* margin-left: 150px; */
+    /* margin-top: 5px; */
 }
 
 .navbar {
@@ -45,7 +52,7 @@ header {
     align-items: center;
     /* text-align: center */
     /* margin-top: 20px; */
-    max-width: 1440px;
+    max-width: 1160px;
     margin: 0 auto;
     /* gap: 186px; */
 
@@ -63,7 +70,7 @@ header {
 }
 
 .nav-links {
-    gap: 32px;
+    gap: 20px;
 }
 
 .nav-btn {
@@ -81,11 +88,10 @@ header {
 
 /* banner section */
 .banner {
-    max-width: 1440px;
+    max-width: 1160px;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    gap: 50px;
     justify-content: space-between;
     align-items: center;
 
@@ -130,7 +136,7 @@ header {
 
 .curriculam {
     margin-top: 65px;
-    max-width: 1440px;
+    max-width: 1160px;
     margin: 0 auto;
     background-image: url("../assets/bg.png");
     margin-bottom: 60px;
@@ -144,10 +150,13 @@ header {
 
 .school-curriculam-cards {
     display: grid;
-    /* gap: 29px; */
+    /* gap: 20px; */
     grid-template-columns: repeat(3, 1fr);
+    justify-items:center;
+    align-items: center;
     margin-top: 80px;
     margin-bottom: 80px;
+    /* margin-left: 100px; */
 
 }
 
@@ -224,4 +233,28 @@ header {
     color: white;
     font-weight: bold;
     background-color: rgb(254, 163, 1);
+}
+
+/* our stories section */
+.stories {
+    margin-top: 65px;
+    max-width: 1160px;
+    margin: 0 auto;
+    background-image: url("../assets/bg.png"), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    margin-bottom: 60px;
+}
+
+.sect2-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+
+.stories-card {
+    display: grid;
+    /* gap: 29px;  */
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 130px;
 }
