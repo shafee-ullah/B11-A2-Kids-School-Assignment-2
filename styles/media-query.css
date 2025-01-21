@@ -35,6 +35,10 @@
         gap: 15px;
     }
 
+    .banner-btn {
+        margin-top: 25px;
+    }
+
     .banner-content {
         max-width: 100%;
     }
@@ -76,67 +80,65 @@
         display: none;
     }
 
- /* Stories section */
- .stories {
-    flex-direction: column;
-    margin: 0 auto;
-    /* margin-left: 15px;
+    /* Stories section */
+    .stories {
+        flex-direction: column;
+
+        /* margin-left: 15px;
     margin-right: 15px;*/
-    max-width: 100%; 
- }
+        max-width: 100%;
+    }
 
-.stories-card-grid {
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center; 
-    justify-items: center;
-    gap: 15px; 
-  
-}  
+    .stories-card-grid {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-items: center;
+        gap: 15px;
 
-.card-story {
-    
-    width: 174px; 
-       margin-left: 16px;   
-       margin-right: 16px;
-       height: 179.59px;
-       margin: 0 auto;
-} 
+    }
 
-.story-img {
-    
-    width: 173.27px;
-    /* height: auto; */
-    border-top-left-radius: 12px; 
-    border-top-right-radius: 12px;
+    .card-story {
+
+        width: 174px;
+        margin-left: 16px;
+        margin-right: 16px;
+        height: 179.59px;
+        margin: 0;
+    }
+
+    .story-img {
+
+        width: 173.27px;
+        /* height: auto; */
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .story-header {
+        text-align: center;
+        align-items: center;
+        font-size: 0.57rem;
+    }
+
+    .story-btn {
+        margin-top: 3px;
+        margin-left: 15px;
+        padding: 5px 10px;
+    }
+
+    .measurement2 {
+        padding: 10px;
+    }
+
+    .view-all {
+        margin-top: 20px;
+        margin-bottom: 60px;
+        padding: 5px 37px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .sect2-header {
+        font-size: 1.8rem;
+    }
 }
-
-.story-header {
-    text-align: center;
-    font-size: 0.57rem; 
-}
-
-.story-btn {
-    margin-top: -10px;
-    margin-left:15px ;
-    padding: 5px 10px;
-}
-
-.measurement2 {
-    padding: 10px; 
-}
-
-.view-all {
-    margin-top: 20px;
-    margin-bottom: 60px;
-    padding: 5px 37px; 
-    font-size: 1rem;
-    font-weight:bold ;
-}
-
-.sect2-header {
-    font-size: 1.8rem; 
-}
-}
-    
-
-
