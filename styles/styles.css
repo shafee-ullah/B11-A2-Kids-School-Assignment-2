@@ -1,74 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 .quicksand-font {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
-    font-weight:400;
+    font-weight: 400;
     font-style: normal;
-  }
-  /* shared styles */
-  .display-flex{
-    display: flex;
-  }
-  .orange-bg-color{
-    background-color: rgb(254, 163, 1);
-  }
-  .orange-color{
-    color: rgb(254, 163, 1);
-  }
-  .blue-color{
-    color: rgb(1, 172, 253);
-  }
-  .sky-blue-color{
-    color:rgb(5, 212, 223) ;
-  }
-  .purple-color{
-    color: rgb(93, 88, 239);
-  }
+}
 
-  
-  /* header section */
-  
-  header{
+/* shared styles */
+.display-flex {
+    display: flex;
+}
+
+.orange-bg-color {
+    background-color: rgb(254, 163, 1);
+}
+
+.orange-color {
+    color: rgb(254, 163, 1);
+}
+
+.blue-color {
+    color: rgb(1, 172, 253);
+}
+
+.sky-blue-color {
+    color: rgb(5, 212, 223);
+}
+
+.purple-color {
+    color: rgb(93, 88, 239);
+}
+
+
+/* header section */
+
+header {
     margin-top: 20px;
     margin-bottom: 20px;
-  }
-  .navbar{
+}
+
+.navbar {
     justify-content: space-between;
     align-items: center;
     /* text-align: center */
     /* margin-top: 20px; */
     max-width: 1440px;
     margin: 0 auto;
-  /* gap: 186px; */
+    /* gap: 186px; */
 
-  }
-  .nav-items{
+}
+
+.nav-items {
     list-style: none;
     font-size: 1.25rem;
     font-weight: 500;
-  }
-  
-  .nav-link{
+}
+
+.nav-link {
     text-decoration: none;
     font-weight: 600;
-  }
-  .nav-links{
-    gap: 32px;
-  }
-  .nav-btn{
-   border: none;
-   padding: 15px 60px;
-   border-radius: 12px;
-   color: white;
-   font-weight: 500;
-   font-size: 1.25rem;
-  }
-  .nav-phn-btn{
-    display: none;
-  }
+}
 
-  /* banner section */
-  .banner{
+.nav-links {
+    gap: 32px;
+}
+
+.nav-btn {
+    border: none;
+    padding: 15px 60px;
+    border-radius: 12px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.nav-phn-btn {
+    display: none;
+}
+
+/* banner section */
+.banner {
     max-width: 1440px;
     margin: 0 auto;
     margin-top: 20px;
@@ -77,35 +89,139 @@
     justify-content: space-between;
     align-items: center;
 
-  }
-  .banner-content {
+}
+
+.banner-content {
     max-width: 1160px;
     margin: 0 auto;
     margin-bottom: 60px;
 }
-.banner-header{
+
+.banner-header {
     font-weight: bold;
     font-size: 3.5rem;
     margin-bottom: 24px;
     margin-top: 0px;
 }
-.banner-para{
+
+.banner-para {
     font-weight: 400;
     font-size: 1.25rem;
     margin-bottom: 24px;
 }
-.banner-btn{
+
+.banner-btn {
     border: none;
-   padding: 15px 47px;
-   border-radius: 12px;
-   color: white;
-   background-color: black;
-   font-weight: 600;
-   font-size: 1.25rem;
+    padding: 15px 47px;
+    border-radius: 12px;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    font-size: 1.25rem;
 }
-.banner-img{
+
+.banner-img {
     /* width: 100%; */
+    margin-bottom: 100px;
 }
 
+/* main section */
+/* section curriculam */
 
+.curriculam {
+    margin-top: 65px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url("../assets/bg.png");
+    margin-bottom: 60px;
+}
 
+.sect1-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+
+.school-curriculam-cards {
+    display: grid;
+    /* gap: 29px; */
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+.cards {
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    width: 367.8px;
+    height: 476.78px;
+    border-radius: 18.86px;
+    box-sizing: border-box;
+
+}
+
+.card1 {
+
+    border: 0.94px solid rgb(222, 245, 255);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.card2 {
+    border: 0.94px solid rgb(255, 244, 220);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255)
+}
+
+.card3 {
+    border: 0.94px solid rgb(242, 232, 255);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.card-img {
+    align-items: center;
+    margin-top: 65px;
+}
+
+.card-headline {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card-para {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 32px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgba(128, 128, 128, 1);
+}
+
+.card-btn {
+    text-align: center;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.twobtns {
+
+    text-align: center;
+}
+
+.btns {
+
+    border-radius: 30px;
+    padding: 12px 17px;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(254, 163, 1);
+}
