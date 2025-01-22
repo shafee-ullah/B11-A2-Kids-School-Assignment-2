@@ -135,8 +135,8 @@ header {
 main {
     max-width: 1440px;
     margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-top: 20px; */
+ 
 }
 
 /* section curriculam */
@@ -242,13 +242,13 @@ main {
     background-color: rgb(254, 163, 1);
 }
 
-/* our stories section */
 .stories {
     margin-top: 65px;
     max-width: 1440px;
     margin: 0 auto;
     background-image: url("../assets/bg.png"), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
+    padding-bottom: 60px;
 }
 
 .sect2-header {
@@ -283,7 +283,7 @@ main {
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
     overflow: hidden;
-    margin-bottom: -22px;
+    margin-bottom: -24px;
 }
 
 .cardstory1 {
@@ -291,6 +291,7 @@ main {
     border-radius: 16px;
 
 }
+
 
 .measurement1 {
     padding: 50px 38px;
@@ -360,11 +361,36 @@ main {
     background-color: rgba(149, 178, 38, 1);
     margin-left: 40px;
 }
-.view-all{
+
+.story-btn-2 {
+    padding-top: 10px;
+    padding-bottom: 11px;
+    padding-left: 19.17px;
+    padding-right: 18.88px;
+    border: none;
+    border-radius: 47.93px;
+    color: white;
+    background-color: rgb(93, 88, 240);
+    margin-left: 40px;
+}
+
+.story-btn-4 {
+    padding-top: 10px;
+    padding-bottom: 11px;
+    padding-left: 19.17px;
+    padding-right: 18.88px;
+    border: none;
+    border-radius: 47.93px;
+    color: white;
+    background-color: rgb(93, 88, 240);
+    margin-left: 40px;
+}
+
+.view-all {
     display: block;
     margin: 0 auto;
     margin-top: 88px;
-    margin-bottom: 60px;   
+    margin-bottom: 0px;
     border: none;
     padding: 15px 47px;
     border-radius: 12px;
@@ -374,3 +400,63 @@ main {
     font-size: 1.25rem;
 }
 
+
+/* FOOTER SECTION */
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(1, 172, 253, 1);
+    padding-top: 45px;
+    padding-bottom: 150px;
+}
+
+.footer-main-div {
+    max-width: 1070.91px;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 140px;
+}
+
+.footer-divs {
+    width: 50%;
+}
+
+.footer-links {
+    list-style: none;
+    margin-bottom: 4px;
+    /* REDUCED FROM 20px */
+}
+
+.school-info {
+    text-align: start;
+    margin: 0;
+    padding: 0;
+}
+
+/* SOCIAL MEDIA ICONS */
+.footer-logos {
+    display: flex;
+    gap: 10px;
+}
+
+
+.img-head-img {
+    /* display: block; */
+    /* ADDED */
+}
+
+.footer-header {
+    margin: 0;
+    margin-left: 5px;
+    font-weight: bold;
+    /* font-size: 2.6rem ; */
+    color: white;
+}
+
+.footer-para1 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: white;
+}
