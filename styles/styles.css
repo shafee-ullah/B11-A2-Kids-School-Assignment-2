@@ -42,9 +42,12 @@ header {
     margin-bottom: 20px;
 }
 
-.navlog {
-    /* margin-left: 150px; */
-    /* margin-top: 5px; */
+.header-logo {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-logo:hover {
+    transform: scale(1.1);
 }
 
 .navbar {
@@ -62,6 +65,11 @@ header {
     list-style: none;
     font-size: 1.25rem;
     font-weight: 500;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-items:hover {
+    transform: scale(1.1);
 }
 
 .nav-link {
@@ -80,6 +88,14 @@ header {
     color: white;
     font-weight: 500;
     font-size: 1.25rem;
+}
+
+.nav-btn:hover {
+    background-color: #2563eb;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1.5px);
+    cursor: pointer;
+    /* transform: scale(1.1); */
 }
 
 .nav-phn-btn {
@@ -124,7 +140,15 @@ header {
     background-color: black;
     font-weight: 600;
     font-size: 1.25rem;
+    cursor: pointer;
 }
+
+.banner-btn:hover {
+    background-color: rgb(254, 163, 1);
+    color: white;
+    transform: translateY(-2px);
+}
+
 
 .banner-img {
     /* width: 100%; */
@@ -136,7 +160,7 @@ main {
     max-width: 1440px;
     margin: 0 auto;
     /* margin-top: 20px; */
- 
+
 }
 
 /* section curriculam */
@@ -224,6 +248,7 @@ main {
     border: none;
     font-weight: bold;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .twobtns {
@@ -240,6 +265,13 @@ main {
     color: white;
     font-weight: bold;
     background-color: rgb(254, 163, 1);
+    cursor: pointer;
+}
+
+.btns:hover {
+    background-color: rgb(255, 140, 0);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
 }
 
 .stories {
@@ -400,63 +432,100 @@ main {
     font-size: 1.25rem;
 }
 
+.view-all:hover {
+    background-color: rgb(254, 163, 1);
+    color: white;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
 
 /* FOOTER SECTION */
+
 footer {
     max-width: 1440px;
     margin: 0 auto;
     background-color: rgba(1, 172, 253, 1);
-    padding-top: 45px;
-    padding-bottom: 150px;
+    padding: 45px 0 150px;
 }
 
 .footer-main-div {
     max-width: 1070.91px;
-    margin: 0 auto;
-    margin-top: 50px;
+    margin: 50px auto 0;
+    display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 140px;
+    position: relative;
 }
 
 .footer-divs {
-    width: 50%;
-}
-
-.footer-links {
-    list-style: none;
-    margin-bottom: 4px;
-    /* REDUCED FROM 20px */
-}
-
-.school-info {
-    text-align: start;
-    margin: 0;
-    padding: 0;
-}
-
-/* SOCIAL MEDIA ICONS */
-.footer-logos {
-    display: flex;
-    gap: 10px;
+    width: auto;
+    position: relative;
 }
 
 
-.img-head-img {
-    /* display: block; */
-    /* ADDED */
-}
 
 .footer-header {
-    margin: 0;
-    margin-left: 5px;
-    font-weight: bold;
-    /* font-size: 2.6rem ; */
+    margin: 0 0 0 5px;
+    font-weight: 700;
+    font-size: 2rem;
     color: white;
+    line-height: 1.2;
 }
 
 .footer-para1 {
     font-size: 1.25rem;
     font-weight: 400;
     color: white;
+    line-height: 1.5;
+    margin-top: 15px;
+    max-width: 300px;
 }
+
+/* About School Section */
+.footer-head {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+   
+}
+
+.school-info {
+    text-align: start;
+
+    margin-left: -52px;
+}
+
+.school-info li {
+    list-style: none;
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 15px;
+}
+
+
+/* Keep In Touch Section */
+.footer-logos {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.footer-logos img {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+
+    transition: opacity 0.3s ease;
+}
+
+.footer-logos img:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+
+
+/* .footer-links a.nav-link {
+    all: unset;
+    cursor: pointer;
+} */

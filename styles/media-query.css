@@ -23,10 +23,22 @@
         display: flex;
         margin-right: 15px;
         margin-bottom: -5px;
+        cursor: pointer;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .header-logo {
         margin-left: 15px;
+        cursor: pointer;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .header-logo:hover {
+        transform: scale(1.1);
+    }
+
+    .nav-phn-btn:hover {
+        transform: scale(1.1);
     }
 
     .banner {
@@ -83,9 +95,6 @@
     /* Stories section */
     .stories {
         flex-direction: column;
-
-        /* margin-left: 15px;
-    margin-right: 15px;*/
         max-width: 100%;
     }
 
@@ -133,12 +142,78 @@
     .view-all {
         margin-top: 40px;
         margin-bottom: 10px;
-        padding: 5px 37px;
+        padding: 8px 37px;
         font-size: 1rem;
-        font-weight: bold;
+        font-weight: 600;
     }
 
     .sect2-header {
         font-size: 1.8rem;
     }
+
+
+    /* footer-section */
+    footer {
+        padding: 30px 60px 90px 25px;
+
+    }
+
+    .footer-main-div {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    /* Header Section */
+    .img-head {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 5px;
+        margin-left: -7px;
+    }
+
+    .footer-header {
+        font-size: 1.5rem;
+        line-height: 1.2;
+        margin: 0;
+        white-space: nowrap;
+    }
+
+    .footer-header br {
+        display: block;
+    }
+
+    .footer-para1 {
+        font-size: 1rem;
+        line-height: 1.4;
+        margin-top: 10px;
+        max-width: 100%;
+        display: inline-block;
+    }
+
+    .footer-divs {
+        margin-bottom: -20px;
+    }
+
+
+    .school-info {
+        margin-left: 0;
+    }
+
+    .school-info li {
+        font-size: 0.95rem;
+        padding-left: 15px;
+        margin-left: -53px;
+    }
+
+
+    /* Keep In Touch Section */
+
+    .footer-logos {
+        justify-content: flex-start;
+        gap: 12px;
+        margin-top: 15px;
+    }
+
 }
