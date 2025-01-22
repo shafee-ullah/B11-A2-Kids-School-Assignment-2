@@ -130,9 +130,11 @@
     }
 
     .story-btn {
-        margin-top: 3px;
-        margin-left: 15px;
-        padding: 5px 10px;
+        margin-top: 5px;
+        margin-left: 30px;
+        padding: 8px 12px;
+     font-size: 0.57rem;
+         font-weight: 500;
     }
 
     .measurement2 {
